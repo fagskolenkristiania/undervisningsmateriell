@@ -1,81 +1,81 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-family: "lft-etica", -apple-system, "Helvetica Neue", sans-serif;
-	background: #fff;
-	font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "lft-etica", -apple-system, "Helvetica Neue", sans-serif;
+    background: #fff;
+    font-size: 16px;
 }
 
 nav,
 main {
-	min-height: 100vh;
-	padding: 40px;
+    min-height: 100vh;
+    padding: 40px;
 }
 
 nav {
-	width: 250px;
-	border-right: 1px solid #eee;
-	position: fixed;
+    width: 250px;
+    border-right: 1px solid #eee;
+    position: fixed;
 }
 
 main {
-	margin-left: calc(250px + 10%);
+    margin-left: calc(250px + 10%);
 }
 
 @media screen and (max-width: 650px) {
-	body {
-		flex-wrap: wrap;
-	}
+    body {
+        flex-wrap: wrap;
+    }
 
-	nav,
-	main {
-		min-height: auto;
-		width: 100%;
-		margin: 0;
-	}
+    nav,
+    main {
+        min-height: auto;
+        width: 100%;
+        margin: 0;
+    }
 
-	nav {
-		position: static;
-	}
+    nav {
+        position: static;
+    }
 }
 
 nav ul {
-	list-style: none;
-	padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 nav ul ul {
-	padding-left: 25px;
+    padding-left: 25px;
 }
 
 nav ul li {
-	margin-bottom: 0.6em;
+    margin-bottom: 0.6em;
 }
 
 nav ul li a {
-	color: #000;
-	text-decoration: none;
+    color: #000;
+    text-decoration: none;
 }
 
 header,
 article {
-	max-width: 750px;
-	line-height: 1.5em;
-	margin-bottom: 100px;
+    max-width: 750px;
+    line-height: 1.5em;
+    margin-bottom: 100px;
 }
 
 .logo {
-	width: 60px;
-	display: block;
-	margin-bottom: 50px;
+    width: 60px;
+    display: block;
+    margin-bottom: 50px;
 }
