@@ -13,7 +13,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	font-family: -apple-system, "Helvetica Neue", sans-serif;
 	background: #fff;
-	font-size: 14px;
+	font-size: 16px;
 	display: flex;
 }
 
@@ -26,11 +26,11 @@ main {
 nav {
 	width: 250px;
 	border-right: 1px solid #eee;
+	position: fixed;
 }
 
 main {
-	margin-left: 10%;
-	flex-grow: 1;
+	margin-left: calc(250px + 10%);
 }
 
 @media screen and (max-width: 650px) {
@@ -42,6 +42,11 @@ main {
 	main {
 		min-height: auto;
 		width: 100%;
+		margin: 0;
+	}
+
+	nav {
+		position: static;
 	}
 }
 
