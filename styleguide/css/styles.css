@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: -apple-system, "Helvetica Neue", sans-serif;
+	background: #fff;
+	font-size: 14px;
+	display: flex;
+}
+
+nav,
+main {
+	min-height: 100vh;
+	padding: 40px;
+}
+
+nav {
+	width: 250px;
+	border-right: 1px solid #eee;
+}
+
+main {
+	margin-left: 10%;
+	flex-grow: 1;
+}
+
+@media screen and (max-width: 650px) {
+	body {
+		flex-wrap: wrap;
+	}
+
+	nav,
+	main {
+		min-height: auto;
+		width: 100%;
+	}
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	margin-bottom: 0.8em;
+}
+
+nav ul li a {
+	color: #000;
+	text-decoration: none;
+}
