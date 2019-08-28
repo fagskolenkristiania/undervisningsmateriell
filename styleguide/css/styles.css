@@ -71,7 +71,7 @@ header,
 article {
     max-width: 750px;
     line-height: 1.5em;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 article::before,
